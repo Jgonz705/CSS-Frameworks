@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+background-color:slateblue;
+color: white;
+align-items: center; 
+display: flex;
+justify-content: space-around;
+
+}
+
+.navbar > nav > a {
+    color: white ;
+    text-transform: uppercase;
+    text-decoration: none; 
+    padding: 10px;
+}
+
+.navbar > nav > a:hover {
+    color: blue;
+    border-bottom: 1px purple dotted;
+}
+
+footer {
+    background-color: blueviolet !important;
+    color:white !important
+}
+
+article {
+    text-align: center;
+}
+
+article::after {
+    display: block;
+    content: "";
+    border: 3px green;
+}
+
+.article-author {
+    color: green;
+    font-weight:bold;
+    font-size: smaller;
+}
+
+.article-title {
+    color: slateblue;
+     font-size: 48px; 
+     font-weight: 900;
+}
+
+.article-image {
+    width: 100%;
+    max-height: 300px; 
+    object-fit: cover;
+}
+
+article > section {
+    text-align:justify;
+    padding: 0 20px;
+    color:darkorange ; 
+    font-size: 24px;
+}
+
+article > section > p:first-child {
+    text-indent: 50px;
+}

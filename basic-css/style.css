@@ -1,5 +1,12 @@
+:root {
+    --primary-text: white; 
+    --bg-color: #323232;
+}
+
 body {
     margin: 0;
+    background-color: var(--bg-color);
+    font-family: 'Kanit', sans-serif;
 }
 
 .navbar {
@@ -45,7 +52,7 @@ article::after {
 }
 
 .article-title {
-    color: slateblue;
+    color: var(--primary-text)
      font-size: 48px; 
      font-weight: 900;
 }
@@ -59,7 +66,7 @@ article::after {
 article > section {
     text-align:justify;
     padding: 0 20px;
-    color:darkorange ; 
+    color: var(--primary-text); 
     font-size: 24px;
 }
 
